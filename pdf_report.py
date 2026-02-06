@@ -10,7 +10,7 @@ def generate_pdf(contract_type, final_risk, summary, risky_clauses):
     pdf.add_page()
 
     pdf.set_font("Arial", "B", 16)
-    pdf.cell(0, 10, sanitize_text(" Contract Risk Report"), ln=True)
+    pdf.cell(0, 10, sanitize_text("Contract Risk Report"), ln=True)
 
     pdf.ln(4)
     pdf.set_font("Arial", size=12)
@@ -38,4 +38,5 @@ def generate_pdf(contract_type, final_risk, summary, risky_clauses):
     file_path = "contract_risk_report.pdf"
     pdf.output(file_path)
     return file_path
+
 
