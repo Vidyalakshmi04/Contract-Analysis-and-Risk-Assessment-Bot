@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+python-docx
+spacy
+nltk
+openai
+fpdf
