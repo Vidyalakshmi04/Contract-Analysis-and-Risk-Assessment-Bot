@@ -4,7 +4,7 @@
 Small and medium businesses often sign legal contracts without understanding hidden risks, complex clauses, and unfair terms. This leads to legal disputes, financial loss, and compliance issues.
 
 ## 💡 Solution
-NyayaGen is a GenAI-powered legal assistant that analyzes business contracts and explains complex clauses in simple business language. It detects risky clauses, assigns risk scores, flags ambiguous terms, and generates a downloadable PDF report for legal consultation.
+A GenAI-powered legal assistant that analyzes business contracts and explains complex clauses in simple business language. It detects risky clauses, assigns risk scores, flags ambiguous terms, and generates a downloadable PDF report for legal consultation.
 
 ## 🚀 Features
 - Contract type detection  
@@ -31,4 +31,5 @@ User Upload → Text Extraction → Clause Splitting → NLP Analysis → Risk D
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
 
