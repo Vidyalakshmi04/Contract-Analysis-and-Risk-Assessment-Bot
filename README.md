@@ -1,4 +1,4 @@
-# NyayaGen – GenAI Legal Assistant (MVP)
+# Contract Analysis and Risk Assessment Bot
 
 Upload a contract and get:
 - Clause extraction
@@ -6,3 +6,4 @@ Upload a contract and get:
 - Simple explanation using GenAI
 
 Built with Streamlit + Python.
+
