@@ -1,5 +1,5 @@
 import streamlit as st
-import matplotlib.pyplot as plt
+
 
 from extractor import extract_text
 from clause_splitter import split_clauses
@@ -168,3 +168,4 @@ if uploaded_file:
         )
         with open(pdf_path, "rb") as f:
             st.download_button("⬇️ Download PDF", f, file_name="contract_risk_report.pdf")
+
