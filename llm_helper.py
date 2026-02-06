@@ -1,7 +1,7 @@
-import os
-from openai import OpenAI
+#import os
+#from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+#client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def explain_clause(clause):
     # Simple fallback explanation (no API key needed)
@@ -26,3 +26,4 @@ def explain_clause(clause):
         return "This clause transfers ownership of work or ideas. Make sure you are not losing your rights."
 
     return "This clause contains legal terms. It is recommended to review if this condition is fair for your business."
+
