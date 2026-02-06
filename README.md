@@ -1,4 +1,4 @@
-# ⚖️ NyayaGen – GenAI Legal Assistant for SMEs
+# ⚖️ Contract Analysis and Risk Assessment Bot
 
 ## 🔍 Problem
 Small and medium businesses often sign legal contracts without understanding hidden risks, complex clauses, and unfair terms. This leads to legal disputes, financial loss, and compliance issues.
@@ -31,3 +31,4 @@ User Upload → Text Extraction → Clause Splitting → NLP Analysis → Risk D
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
