@@ -9,7 +9,7 @@ from analysis_utils import detect_contract_type, classify_clause_type, is_ambigu
 from ner_utils import extract_entities
 from pdf_report import generate_pdf
 
-st.set_page_config(page_title="NyayaGen - Legal Assistant", layout="wide")
+st.set_page_config(page_title="Legal Assistant", layout="wide")
 st.title("⚖️ Contract Analysis and Risk Assessment Bot")
 st.markdown("""
 
@@ -168,4 +168,5 @@ if uploaded_file:
         )
         with open(pdf_path, "rb") as f:
             st.download_button("⬇️ Download PDF", f, file_name="contract_risk_report.pdf")
+
 
