@@ -5,4 +5,8 @@ spacy
 nltk
 openai
 fpdf
-en-core-web-sm
+
+
+
+
+
